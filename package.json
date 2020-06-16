@@ -22,7 +22,7 @@
     "url": "https://github.com/Soni96pl/local-signal-storage/issues"
   },
   "homepage": "https://github.com/Soni96pl/local-signal-storage#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2"
