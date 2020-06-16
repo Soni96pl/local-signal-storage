@@ -10,12 +10,12 @@ const eventProxy = () => {
 };
 
 class LocalStorageAdapter {
-  static registerEventProxy() {
+  registerEventProxy() {
     LocalStorageAdapter.unregisterEventProxy();
     window.addEventListener('storage', eventProxy);
   }
 
-  static unregisterEventProxy() {
+  unregisterEventProxy() {
     window.removeEventListener('storage', eventProxy);
   }
 
