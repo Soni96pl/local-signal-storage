@@ -1,6 +1,6 @@
 {
   "name": "local-signal-storage",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Local storage to receive local storage update events in the same tab",
   "main": "lib/index.js",
   "scripts": {
