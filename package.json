@@ -1,0 +1,30 @@
+{
+  "name": "local-signal-storage",
+  "version": "1.0.0",
+  "description": "Local storage to receive local storage update events in the same tab",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soni96pl/local-signal-storage.git"
+  },
+  "keywords": [
+    "local",
+    "storage",
+    "events"
+  ],
+  "author": "Sonia Chronowska",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soni96pl/local-signal-storage/issues"
+  },
+  "homepage": "https://github.com/Soni96pl/local-signal-storage#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2"
+  }
+}
